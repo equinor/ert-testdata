@@ -1,0 +1,40 @@
+{
+    "run_id": "f07dba8a-eed9-427b-bd94-694c49105939:2022-12-16T1703",
+    "start_time": 1671206633.0,
+    "end_time": 1671206636.0,
+    "jobs": [
+        {
+            "name": "SNAKE_OIL_SIMULATOR",
+            "status": "Success",
+            "error": null,
+            "start_time": 1671206633.0,
+            "end_time": 1671206635.0,
+            "stdout": "snake_oil.stdout.0",
+            "stderr": "snake_oil.stderr.0",
+            "current_memory_usage": 356352,
+            "max_memory_usage": 356352
+        },
+        {
+            "name": "SNAKE_OIL_NPV",
+            "status": "Success",
+            "error": null,
+            "start_time": 1671206635.0,
+            "end_time": 1671206635.0,
+            "stdout": "snake_oil_npv.stdout.1",
+            "stderr": "snake_oil_npv.stderr.1",
+            "current_memory_usage": 8192,
+            "max_memory_usage": 8192
+        },
+        {
+            "name": "SNAKE_OIL_DIFF",
+            "status": "Success",
+            "error": null,
+            "start_time": 1671206635.0,
+            "end_time": 1671206636.0,
+            "stdout": "snake_oil_diff.stdout.2",
+            "stderr": "snake_oil_diff.stderr.2",
+            "current_memory_usage": 8192,
+            "max_memory_usage": 8192
+        }
+    ]
+}
