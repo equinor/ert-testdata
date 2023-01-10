@@ -1,0 +1,9 @@
+
+JOBNAME my_name%d
+NUM_REALIZATIONS 10
+FIELD FIELD_1 PARAMETER field_1.grdecl INIT_FILES:field_1_%d.grdecl
+GRID MY_GRID.GRID
+SURFACE SURF_1 OUTPUT_FILE:surf_1.irap INIT_FILES:surf_1_%d.irap BASE_SURFACE:surf_1.irap
+SURFACE SURF_2 OUTPUT_FILE:surf_2.irap INIT_FILES:surf_2_%d.irap BASE_SURFACE:surf_2.irap
+FIELD FIELD_2 PARAMETER field_2.grdecl INIT_FILES:field_2_%d.grdecl
+
