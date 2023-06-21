@@ -1,0 +1,18 @@
+{
+    "run_id": "a34a4d9d-a12f-4a3e-9b37-9bf9f8357b8d",
+    "start_time": 1687346858.0,
+    "end_time": 1687346858.0,
+    "jobs": [
+        {
+            "name": "COPY_EXT_PARAM",
+            "status": "Success",
+            "error": null,
+            "start_time": 1687346858.0,
+            "end_time": 1687346858.0,
+            "stdout": "copy_ext_param.stdout.0",
+            "stderr": "copy_ext_param.stderr.0",
+            "current_memory_usage": 327680,
+            "max_memory_usage": 327680
+        }
+    ]
+}

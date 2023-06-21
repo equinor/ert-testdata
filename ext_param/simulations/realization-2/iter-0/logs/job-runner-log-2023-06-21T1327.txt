@@ -1,0 +1,15 @@
+2023-06-21 13:27:38,828 - _ert_job_runner.cli - INFO - Job status: Init
+2023-06-21 13:27:38,828 - _ert_job_runner.reporting.file - DEBUG - Init Message Instance
+2023-06-21 13:27:38,828 - _ert_job_runner.reporting.file - DEBUG - Deleting old status files
+2023-06-21 13:27:38,828 - _ert_job_runner.cli - INFO - Job status: Start
+2023-06-21 13:27:38,828 - _ert_job_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2023-06-21 13:27:38,828 - _ert_job_runner.reporting.file - DEBUG - Job COPY_EXT_PARAM was successfully started
+2023-06-21 13:27:38,828 - _ert_job_runner.reporting.file - INFO - Append COPY_EXT_PARAM job starting timestamp 13:27:38 to STATUS_file.
+2023-06-21 13:27:38,829 - _ert_job_runner.cli - INFO - Job status: Running
+2023-06-21 13:27:38,829 - _ert_job_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2023-06-21 13:27:38,855 - _ert_job_runner.cli - INFO - Job status: Exited
+2023-06-21 13:27:38,855 - _ert_job_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2023-06-21 13:27:38,855 - _ert_job_runner.reporting.file - DEBUG - Job COPY_EXT_PARAM exited successfully
+2023-06-21 13:27:38,856 - _ert_job_runner.cli - INFO - Job status: Finish
+2023-06-21 13:27:38,856 - _ert_job_runner.reporting.file - DEBUG - Runner finished
+2023-06-21 13:27:38,856 - _ert_job_runner.reporting.file - DEBUG - Runner finished successfully
