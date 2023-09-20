@@ -1,0 +1,1 @@
+{"COEFFS": [{"key": "COEFF_A", "function": "UNIFORM", "parameters": {"MIN": 0.0, "MAX": 1.0}}, {"key": "COEFF_B", "function": "UNIFORM", "parameters": {"MIN": 0.0, "MAX": 2.0}}, {"key": "COEFF_C", "function": "UNIFORM", "parameters": {"MIN": 0.0, "MAX": 5.0}}]}
