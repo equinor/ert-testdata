@@ -1,0 +1,7 @@
+The storage directories are created by running
+
+ert ensemble_experiment config.ert
+
+with the corresponding ert version and enspath set to
+
+ENSPATH storage-{ert-version}

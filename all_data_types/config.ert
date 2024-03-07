@@ -1,0 +1,23 @@
+JOBNAME JOB
+NUM_REALIZATIONS 10
+
+HISTORY_SOURCE REFCASE_HISTORY
+REFCASE refcase/CASE
+OBS_CONFIG observations.txt
+GRID refcase/CASE.EGRID
+RUNPATH runpath/realization-<IENS>/iter-<ITER>
+ECLBASE CASE
+SUMMARY FOPR
+
+GEN_KW BPR template.txt params.txt data/BPR.txt
+FIELD PORO PARAMETER poro.grdecl INIT_FILES:data/poro%d.grdecl
+GEN_DATA GEN INPUT_FORMAT:ASCII RESULT_FILE:gen%d.txt REPORT_STEPS:1
+SURFACE TOP INIT_FILES:data/surf%d.irap OUTPUT_FILE:surf.irap BASE_SURFACE:data/basesurf.irap FORWARD_INIT:False
+
+-- Normally the forward model would generate the responses
+-- but this is faked via COPY_FILE
+FORWARD_MODEL COPY_FILE(<FROM>=../../../refcase/CASE.UNSMRY, <TO>=.)
+FORWARD_MODEL COPY_FILE(<FROM>=../../../refcase/CASE.SMSPEC, <TO>=.)
+FORWARD_MODEL COPY_FILE(<FROM>=../../../data/gen.txt, <TO>=gen1.txt)
+
+ENSPATH "storage-9.0.0"

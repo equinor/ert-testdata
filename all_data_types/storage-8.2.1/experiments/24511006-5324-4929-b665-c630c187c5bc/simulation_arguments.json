@@ -1,0 +1,1 @@
+{"random_seed": null, "minimum_required_realizations": 10, "ensemble_size": 10, "stop_long_running": false, "active_realizations": [true, true, true, true, true, true, true, true, true, true], "current_case": "default", "iter_num": 0, "start_iteration": 0, "target_case": null}
