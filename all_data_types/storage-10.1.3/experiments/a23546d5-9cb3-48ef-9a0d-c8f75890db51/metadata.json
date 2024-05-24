@@ -1,0 +1,1 @@
+{"random_seed": null, "minimum_required_realizations": 10, "ensemble_size": 10, "stop_long_running": false, "experiment_name": "ensemble-experiment", "active_realizations": [true, true, true, true, true, true, true, true, true, true], "start_iteration": 0, "current_ensemble": "default", "target_ensemble": null, "ensemble_type": "Ensemble experiment"}
