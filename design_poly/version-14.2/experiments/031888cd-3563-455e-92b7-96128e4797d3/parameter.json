@@ -1,0 +1,33 @@
+{
+  "DESIGN_MATRIX": {
+    "name": "DESIGN_MATRIX",
+    "forward_init": false,
+    "update": false,
+    "template_file": null,
+    "output_file": null,
+    "transform_function_definitions": [
+      {
+        "name": "a",
+        "param_name": "RAW",
+        "values": []
+      },
+      {
+        "name": "category",
+        "param_name": "RAW",
+        "values": []
+      },
+      {
+        "name": "b",
+        "param_name": "RAW",
+        "values": []
+      },
+      {
+        "name": "c",
+        "param_name": "RAW",
+        "values": []
+      }
+    ],
+    "forward_init_file": null,
+    "_ert_kind": "GenKwConfig"
+  }
+}
