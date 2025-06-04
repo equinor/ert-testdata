@@ -1,0 +1,16 @@
+{
+  "gen_data": {
+    "name": "gen_data",
+    "input_files": [
+      "poly.out"
+    ],
+    "keys": [
+      "POLY_RES"
+    ],
+    "has_finalized_keys": true,
+    "report_steps_list": [
+      null
+    ],
+    "_ert_kind": "GenDataConfig"
+  }
+}
