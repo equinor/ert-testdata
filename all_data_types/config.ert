@@ -11,7 +11,7 @@ SUMMARY FOPR
 
 GEN_KW BPR template.txt params.txt data/BPR.txt
 FIELD PORO PARAMETER poro.grdecl INIT_FILES:data/poro%d.grdecl
-GEN_DATA GEN INPUT_FORMAT:ASCII RESULT_FILE:gen%d.txt REPORT_STEPS:1
+GEN_DATA GEN RESULT_FILE:gen%d.txt REPORT_STEPS:1
 SURFACE TOP INIT_FILES:data/surf%d.irap OUTPUT_FILE:surf.irap BASE_SURFACE:data/basesurf.irap FORWARD_INIT:False
 
 -- Normally the forward model would generate the responses
