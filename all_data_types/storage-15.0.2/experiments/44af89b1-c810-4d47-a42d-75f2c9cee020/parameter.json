@@ -1,0 +1,53 @@
+{
+  "BPR": {
+    "type": "gen_kw",
+    "name": "BPR",
+    "forward_init": false,
+    "update": true,
+    "transform_function_definitions": [
+      {
+        "name": "BPR",
+        "param_name": "NORMAL",
+        "values": [
+          "0",
+          "1"
+        ]
+      }
+    ]
+  },
+  "TOP": {
+    "type": "surface",
+    "name": "TOP",
+    "forward_init": false,
+    "update": true,
+    "ncol": 2,
+    "nrow": 3,
+    "xori": 0.0,
+    "yori": 0.0,
+    "xinc": 1.0,
+    "yinc": 1.0,
+    "rotation": 0.0,
+    "yflip": 1,
+    "forward_init_file": "data/surf%d.irap",
+    "output_file": "surf.irap",
+    "base_surface_path": "data/basesurf.irap"
+  },
+  "PORO": {
+    "type": "field",
+    "name": "PORO",
+    "forward_init": false,
+    "update": true,
+    "nx": 2,
+    "ny": 3,
+    "nz": 4,
+    "file_format": "grdecl",
+    "output_transformation": null,
+    "input_transformation": null,
+    "truncation_min": null,
+    "truncation_max": null,
+    "forward_init_file": "data/poro%d.grdecl",
+    "output_file": "poro.grdecl",
+    "grid_file": "/home/eivind/Projects/ert/test-data/ert/block_storage/all_data_types/refcase/CASE.EGRID",
+    "mask_file": "/home/eivind/Projects/ert/test-data/ert/block_storage/all_data_types/storage-15.0.2/experiments/44af89b1-c810-4d47-a42d-75f2c9cee020/grid_mask.npy"
+  }
+}

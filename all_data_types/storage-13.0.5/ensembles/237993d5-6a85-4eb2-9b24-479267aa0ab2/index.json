@@ -1,0 +1,9 @@
+{
+  "id": "237993d5-6a85-4eb2-9b24-479267aa0ab2",
+  "experiment_id": "e5bed3f3-fd36-469e-8ad3-9cfb9d11d512",
+  "ensemble_size": 10,
+  "iteration": 0,
+  "name": "default",
+  "prior_ensemble_id": null,
+  "started_at": "2025-11-10T09:35:52.813629"
+}

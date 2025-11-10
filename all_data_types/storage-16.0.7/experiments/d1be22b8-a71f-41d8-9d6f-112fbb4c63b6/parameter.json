@@ -1,0 +1,61 @@
+{
+  "BPR": {
+    "type": "gen_kw",
+    "name": "BPR",
+    "forward_init": false,
+    "update": true,
+    "distribution": {
+      "name": "normal",
+      "mean": 0.0,
+      "std": 1.0
+    },
+    "group": "BPR",
+    "input_source": "sampled"
+  },
+  "TOP": {
+    "type": "surface",
+    "name": "TOP",
+    "forward_init": false,
+    "update": true,
+    "ncol": 2,
+    "nrow": 3,
+    "xori": 0.0,
+    "yori": 0.0,
+    "xinc": 1.0,
+    "yinc": 1.0,
+    "rotation": 0.0,
+    "yflip": 1,
+    "forward_init_file": "data/surf%d.irap",
+    "output_file": "surf.irap",
+    "base_surface_path": "data/basesurf.irap"
+  },
+  "PORO": {
+    "type": "field",
+    "name": "PORO",
+    "forward_init": false,
+    "update": true,
+    "ertbox_params": {
+      "nx": 2,
+      "ny": 3,
+      "nz": 4,
+      "xlength": 1.9999999999999998,
+      "ylength": 3.0,
+      "xinc": 0.9999999999999999,
+      "yinc": 1.0,
+      "rotation_angle": 0.0,
+      "origin": [
+        1.8369701465288538e-16,
+        3.0
+      ]
+    },
+    "file_format": "grdecl",
+    "output_transformation": null,
+    "input_transformation": null,
+    "truncation_min": null,
+    "truncation_max": null,
+    "forward_init_file": "data/poro%d.grdecl",
+    "output_file": "poro.grdecl",
+    "grid_file": "/home/eivind/Projects/ert/test-data/ert/block_storage/all_data_types/refcase/CASE.EGRID",
+    "mask_file": "/home/eivind/Projects/ert/test-data/ert/block_storage/all_data_types/storage-16.0.7/experiments/d1be22b8-a71f-41d8-9d6f-112fbb4c63b6/grid_mask.npy"
+  }
+}

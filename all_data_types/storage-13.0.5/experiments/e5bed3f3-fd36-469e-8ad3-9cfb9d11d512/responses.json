@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "name": "summary",
+    "input_files": [
+      "CASE"
+    ],
+    "keys": [
+      "FOPR"
+    ],
+    "has_finalized_keys": true,
+    "refcase": [
+      "1996-01-03 00:00:00",
+      "1996-01-02 00:00:00"
+    ],
+    "_ert_kind": "SummaryConfig"
+  },
+  "gen_data": {
+    "name": "gen_data",
+    "input_files": [
+      "gen%d.txt"
+    ],
+    "keys": [
+      "GEN"
+    ],
+    "has_finalized_keys": true,
+    "report_steps_list": [
+      [
+        1
+      ]
+    ],
+    "_ert_kind": "GenDataConfig"
+  }
+}
