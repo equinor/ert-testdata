@@ -3,7 +3,7 @@
     "name": "BPR",
     "forward_init": false,
     "update": true,
-    "template_file": "/home/eivind/Projects/ert/test-data/ert/block_storage/all_data_types/template.txt",
+    "template_file": "/home/eivind/Projects/ert/test-data/all_data_types/template.txt",
     "output_file": "params.txt",
     "transform_function_definitions": [
       {
@@ -49,8 +49,8 @@
     "truncation_max": null,
     "forward_init_file": "data/poro%d.grdecl",
     "output_file": "poro.grdecl",
-    "grid_file": "/home/eivind/Projects/ert/test-data/ert/block_storage/all_data_types/refcase/CASE.EGRID",
-    "mask_file": "/home/eivind/Projects/ert/test-data/ert/block_storage/all_data_types/storage-13.0.5/experiments/e5bed3f3-fd36-469e-8ad3-9cfb9d11d512/grid_mask.npy",
+    "grid_file": "/home/eivind/Projects/ert/test-data/all_data_types/refcase/CASE.EGRID",
+    "mask_file": "/home/eivind/Projects/ert/test-data/all_data_types/storage-13.0.5/experiments/e5bed3f3-fd36-469e-8ad3-9cfb9d11d512/grid_mask.npy",
     "_ert_kind": "Field"
   }
 }

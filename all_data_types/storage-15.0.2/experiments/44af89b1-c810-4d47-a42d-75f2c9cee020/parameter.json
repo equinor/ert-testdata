@@ -47,7 +47,7 @@
     "truncation_max": null,
     "forward_init_file": "data/poro%d.grdecl",
     "output_file": "poro.grdecl",
-    "grid_file": "/home/eivind/Projects/ert/test-data/ert/block_storage/all_data_types/refcase/CASE.EGRID",
-    "mask_file": "/home/eivind/Projects/ert/test-data/ert/block_storage/all_data_types/storage-15.0.2/experiments/44af89b1-c810-4d47-a42d-75f2c9cee020/grid_mask.npy"
+    "grid_file": "/home/eivind/Projects/ert/test-data/all_data_types/refcase/CASE.EGRID",
+    "mask_file": "/home/eivind/Projects/ert/test-data/all_data_types/storage-15.0.2/experiments/44af89b1-c810-4d47-a42d-75f2c9cee020/grid_mask.npy"
   }
 }
