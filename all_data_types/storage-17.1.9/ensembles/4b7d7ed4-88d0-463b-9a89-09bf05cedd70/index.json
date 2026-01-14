@@ -1,0 +1,10 @@
+{
+  "id": "4b7d7ed4-88d0-463b-9a89-09bf05cedd70",
+  "experiment_id": "6d318c10-7449-40b8-b3de-ae0dbb527613",
+  "ensemble_size": 10,
+  "iteration": 0,
+  "name": "default",
+  "prior_ensemble_id": null,
+  "started_at": "2026-01-14T08:34:41.500941",
+  "everest_realization_info": null
+}
