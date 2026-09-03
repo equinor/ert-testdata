@@ -1,0 +1,42 @@
+{
+  "FIELD_PROPERTIES": {
+    "name": "FIELD_PROPERTIES",
+    "forward_init": false,
+    "update": true,
+    "template_file": null,
+    "output_file": null,
+    "transform_function_definitions": [
+      {
+        "name": "POROSITY",
+        "param_name": "UNIFORM",
+        "values": [
+          "0.1",
+          "0.9"
+        ]
+      }
+    ],
+    "forward_init_file": null,
+    "_ert_kind": "GenKwConfig"
+  },
+  "DESIGN_MATRIX": {
+    "name": "DESIGN_MATRIX",
+    "forward_init": false,
+    "update": false,
+    "template_file": null,
+    "output_file": null,
+    "transform_function_definitions": [
+      {
+        "name": "X_MID_PERMEABILITY",
+        "param_name": "RAW",
+        "values": []
+      },
+      {
+        "name": "dummy",
+        "param_name": "RAW",
+        "values": []
+      }
+    ],
+    "forward_init_file": null,
+    "_ert_kind": "GenKwConfig"
+  }
+}
